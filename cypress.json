@@ -1,0 +1,14 @@
+{
+	"baseUrl":"https://www.shopist.io/",
+	"viewportWidth": 1920,
+	"viewportHeight": 1080,
+	"reporter": "cypress-mochawesome-reporter",
+	"reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true
+  },
+  "retries": {
+    "runMode": 0,
+    "openMode": 0
+  }
+}
