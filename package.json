@@ -12,5 +12,8 @@
     "cypress": "^9.2.0",
     "cypress-mochawesome-reporter": "^2.3.0",
     "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "package.json": "^2.0.1"
   }
 }
