@@ -8,4 +8,4 @@ $HOME/rocketlane/cypress/report/index.html // results can be seen here
 
 Using https://www.npmjs.com/package/mochawesome-report-generator for reports 
 
-To retry failure cases runMode/openMode value needs to be set in cypress.json, by default it's set to 0 
+To retry failure cases runMode (cypress run)/openMode(cypress open) value needs to be set in cypress.json, by default it's set to 0 
