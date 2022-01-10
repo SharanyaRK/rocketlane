@@ -1,10 +1,19 @@
 #Steps to run test case 
 
-npm  install package.json // for the 1st time to install dependencies 
+Initial dependency installation - npm  install package.json 
 
-./node_modules/.bin/cypress run --spec cypress/integration/CartAndDiscountTest.js // to run the test case 
+Fixtures - cypress/fixtures/inputdata.json
 
-$HOME/rocketlane/cypress/report/index.html // results can be seen here
+Utils - cypress/support/utils.js
+
+Custom commands - cypress/support/commands.js 
+
+Test Case - cypress/integration/CartAndDiscountTest.js
+
+Report - $HOME/rocketlane/cypress/report/index.html
+
+Run testcase - ./node_modules/.bin/cypress run --spec cypress/integration/CartAndDiscountTest.js 
+
 
 Using https://www.npmjs.com/package/mochawesome-report-generator for reports 
 
